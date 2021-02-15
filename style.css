@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+.programmer{
+    height: 430px  ;
+    width: 573px ;
+    
+}
+
+
+   
+.scrol{
+    height: 100px ;
+    width: 100px ;
+}
+
+#hi{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+#working{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.aboutme{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+#under-hiall,#webdev-p,#mobiledev-p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+#contact{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+}
+#made{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+}
+.mypic{
+    height: 400px ;
+    width: 170 ;
+}
+hr{
+    margin-top: 0px;
+    border-top: 2px solid #536DFE;
+}
+#hr-review{
+    margin-top: 0px;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+.name{
+    font-family: 'Lato',sans-serif !important;
+    font-weight: 400 !important;
+}
+#hiall{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.nav-item{
+    font-family: 'Lato',sans-serif !important;
+    font-weight: 400 !important;
+}
+.nav-item:hover{
+    background-color: #f4f9f9 !important;
+}
+
+
+
+.serviceimg{
+    height: 200px;
+    width: 200px;
+}
+.devtitle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.mdv{
+    box-shadow: 10px 10px 10px #f0f0f0, -5px -5px 10px #ffffff;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+
+
+.social{
+    width: 41px;
+    height: 41px;
+}
+.img-skills{
+    height: 48px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.img-skills:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+
+}
+.skill-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  a{
+      color: white;
+      text-decoration: none;
+  }
+  .in-corner{
+    margin: 0px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background: #536DFE;
+    z-index: 10;
+    border: 1px solid #536DFE;
+    border-radius: 20px 0px;
+
+  }
+  .inside-corner{
+    margin: 0;
+    padding: 10px;
+    color: white;
+  }
+  
+  .project-desc{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .col2{
+      width: 585px !important;
+  }
+  
